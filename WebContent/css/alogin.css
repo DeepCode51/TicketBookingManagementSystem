@@ -1,0 +1,188 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+	background: #214D90 url(../image/login/bg.gif) repeat-x;
+	color: #999999;
+	font-family: Tahoma,Verdana;
+}
+ul
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.Main
+{
+	width: 940px;
+	margin: 0 auto;
+}
+
+.top
+{
+	height: 75px;
+	background: url(../image/login/login_01.gif) no-repeat;
+}
+
+.top2
+{
+	height: 94px;
+	background: url(../image/login/login_02.gif) no-repeat;
+}
+
+.topA
+{
+	width: 155px;
+	height: 140px;
+	float: left;
+	overflow: hidden;
+	background: url(../image/login/login_03.gif) no-repeat;
+}
+
+
+.topB
+{
+	width: 282px;
+	height: 140px;
+	float: left;
+	overflow: hidden;
+	background: url(../image/login/login_04.gif) no-repeat;
+}
+
+
+.topC
+{
+	width: 27px;
+	height: 140px;
+	float: left;
+	overflow: hidden;
+	background: url(../image/login/login_05.gif) no-repeat;
+}
+
+
+.topD
+{
+	width: 318px;
+	height: 140px;
+	float: left;
+	overflow: hidden;
+	background: url(../image/login/login_06.gif) no-repeat;
+}
+
+.topE
+{
+	width: 158px;
+	height: 140px;
+	float: left;
+	overflow: hidden;
+	background: url(../image/login/login_07.gif) no-repeat;
+}
+
+
+
+.middle_A
+{
+	width: 155px;
+	height: 94px;
+	float: left;
+	overflow: hidden;
+	background: url(../image/login/login_08.gif) no-repeat;
+}
+
+.middle_B
+{
+	width: 309px;
+	height: 94px;
+	float: left;
+	overflow: hidden;
+	background: url(../image/login/login_09.gif) no-repeat;
+
+}
+
+.middle_C
+{
+	
+	width: 318px;
+	height: 94px;
+	float: left;
+	overflow: hidden;
+	background: url(../image/login/login_10.gif) no-repeat;
+}
+
+.middle_D
+{
+	width: 158px;
+	height: 94px;
+	float: left;
+	overflow: hidden;
+	background: url(../image/login/login_11.gif) no-repeat;
+}
+
+.bottom_A
+{
+	height: 72px;
+	clear: both;
+	overflow: hidden;
+	background: url(../image/login/login_12.gif) no-repeat;
+}
+
+.bottom_B
+{
+	height: 70px;
+	overflow: hidden;
+	 text-align:center;
+	background: url(../image/login/login_13.gif) no-repeat;
+}
+
+.login
+{
+	
+}
+
+.login li
+{
+	line-height: 35px;
+	height:35px;
+	overflow:hidden;
+}
+
+.left
+{ line-height: 35px;
+	vertical-align: middle;
+	width: 50px;
+	height:34px;
+	text-align: right;
+	display: -moz-inline-box;
+	display: inline-block;
+	padding-bottom:3px;
+}
+
+.txt
+{
+	width: 215px;
+	height: 30px;
+	line-height: 30px;
+	overflow: hidden;
+	border: 0px;
+	padding-left: 3px;
+	color: #999999;
+	background: url(../image/login/txt.gif) no-repeat left center;
+}
+
+.txtCode
+{
+	line-height: 30px;
+	width: 93px;
+	height: 30px;
+	overflow: hidden;
+	border: 0px;
+	padding-left: 3px;
+		color: #999999;
+	background: url(../image/login/code.gif) no-repeat left center;
+}
+
+.btn
+{
+	margin-left:53px;
+}

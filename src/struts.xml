@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!DOCTYPE struts PUBLIC  
+    "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"  
+    "http://struts.apache.org/dtds/struts-2.3.dtd">  
+      
+<struts>  
+    <constant name="struts.i18n.encoding" value="UTF-8" />  
+    <constant name="struts.action.extension" value="action" />  
+
+
+	<package name="ticketOrderSys" namespace="/" extends="struts-default">  
+     	<action name="flight_*" class="com.java1234.action.FlightAction" method="{1}">
+        	<result name="success">main.jsp</result>
+        </action>
+        
+        <action name="user_*" class="com.java1234.action.UserAction" method="{1}">
+        	<result name="success">main.jsp</result>
+        	<result name="userCenter">main_userCenter.jsp</result>
+        </action>
+        
+        <action name="ticket_*" class="com.java1234.action.TicketAction" method="{1}">
+        	<result name="success">main.jsp</result>
+        	<result name="userCenter">main_userCenter.jsp</result>
+        </action>
+        
+        <action name="manager_*" class="com.java1234.action.ManagerAction" method="{1}">
+        	<result name="logout" type="redirect">admin/login.jsp</result>
+        </action>
+        
+        <action name="aircraft_*" class="com.java1234.action.AircraftAction" method="{1}">
+        	<result name="success">main.jsp</result>
+        </action>
+    </package>  
+</struts>   
